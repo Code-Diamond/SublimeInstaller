@@ -7,8 +7,13 @@ sudo apt-get install sublime-text
 #Download xbindkeys
 sudo apt-get install -y xbindkeys xdotool
 #bind control F1 to activate sublime
-sudo echo '"xdotool windowactivate $(xdotool search --name "sublime" | grep "." | tail -1);"' >> ~/.xbindkeysrc; 
+sudo echo '"xdotool windowactivate $(xdotool search --name "sublime text" | grep "." | tail -1);"' >> ~/.xbindkeysrc; 
 sudo echo 'Control + F1' >> ~/.xbindkeysrc;
 #restart xbindkeys
 sudo killall -s1 xbindkeys
 xbindkeys -f ~/.xbindkeysrc 
+#to remove use the following:
+#sudo apt-get remove sublime-text && sudo apt-get autoremove
+#sudo apt-get remove xdotool
+#sudo apt-get remove xbindkeys
+#rm ~./xbindkeysrc
