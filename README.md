@@ -5,7 +5,8 @@ For Debian distros use installSublime.sh
  - Customize ./xbindkeysrc in home directory for more hotkeys. 
  - Installs guake
 
-_
+__
+__
 
 For Fedora use installSublimeFedora.sh
  - Installs yakuake
