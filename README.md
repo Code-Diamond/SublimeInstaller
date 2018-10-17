@@ -1,5 +1,8 @@
 # SublimeInstaller
-This bash script installs sublime text editor, and configures control f1 for window activation.
-Customize ./xbindkeysrc in home directory for more hotkeys. 
-Installs sublime, xdotools, and xkeybinds.
-Works in debian distros.
+For Debian distros use installSublime.sh
+ - Installs sublime, xdotools, and xkeybinds.
+ - Customize ./xbindkeysrc in home directory for more hotkeys. 
+ - Installs guake
+For Fedora use installSublimeFedora.sh
+ - Installs yakuake
+ _ Installs sublime
